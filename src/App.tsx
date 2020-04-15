@@ -34,7 +34,7 @@ export default function App() {
   }
 
   return (
-    <Router>
+    <Router basename="/cookbook">
       <Switch>
         <Route exact path="/">
           <Home recipes={recipes} tags={tags} />
