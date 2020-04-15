@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA,gBAGE,gBAAiB,CACjB,WACF,CAEA,EACE,oBACF","file":"main.2fde1d6e.chunk.css","sourcesContent":["html,\nbody,\n#root {\n  min-height: 100vh;\n  height: 100%;\n}\n\na {\n  text-decoration: none;\n}\n"]}
