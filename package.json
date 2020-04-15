@@ -1,6 +1,7 @@
 {
   "name": "cookbook",
   "version": "0.1.0",
+  "homepage": "http://lelongg.github.io/cookbook",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.7",
@@ -28,7 +29,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -50,6 +53,7 @@
     "@types/lodash": "^4.14.149",
     "@types/react-helmet": "^5.0.15",
     "@types/react-router-dom": "^5.1.3",
-    "@types/showdown": "^1.9.3"
+    "@types/showdown": "^1.9.3",
+    "gh-pages": "^2.2.0"
   }
 }
